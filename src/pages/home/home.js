@@ -32,13 +32,7 @@ function Home(){
         <img alt='crisps' src={crisps}/>
         <img alt='bread' src={bread}/>  
       </div>
-      <footer>
-        <div className="footer text-center mb-5" >
-          <p></p>
-          <p> Copyright © 2023    TOASTIE+CAFÉ  ■  Web Design: fpsingcak@gmail.com </p>
-          <p></p>
-        </div>    
-      </footer>
+
     </>
       
 

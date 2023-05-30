@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+}
+
+.about{
+    align-items: center;
+    align-content: center;
+}
+
+.card-body{
+    color: rgb(122,74,2);
+}

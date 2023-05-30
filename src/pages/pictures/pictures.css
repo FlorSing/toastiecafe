@@ -1,0 +1,8 @@
+.pictures{
+    display: flex;
+    /* position: relative; */
+    width: 80px;
+    height: 80px;
+    /* align-items: baseline; */
+    /* justify-content: center; */
+}

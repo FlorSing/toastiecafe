@@ -1,12 +1,18 @@
 
 import React from "react";
 import './contact.css';
-
+import prodn from '../../assets/productionline.jpg'
 
 function Contact() {
   return (
     <>
-      <div className='contacts'>
+      <div>
+        <br/>
+      </div>
+      <div>
+      <div className="container" >
+    <div className="row">
+      <div className="col  contacts" >
       <div>
       <h2>Contact Page</h2>
       </div>
@@ -21,8 +27,14 @@ function Contact() {
       <a href='https://www.facebook.com/toastiexcafe' class="btn btn-primary">https://www.facebook.com/toastiexcafe </a> 
       </p>
       </div> 
+      </div>
+      <div class="col">
+        <img src={prodn} alt='neonsign'/>
+      </div>
     </div>
-
+    </div>
+          
+      </div>
     </>
     );
   }
