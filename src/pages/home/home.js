@@ -12,13 +12,12 @@ function Home(){
     return (
 
     <>
-      <div >
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1 class="display-4"> </h1>
-            <p class="lead"> </p>
-          </div>
-        </div>
+      <div className="logo" >
+            <h1 className="logotext" > TOASTIE </h1> 
+            <h1 className="logotext"> + CAFÉ </h1>
+            <p >EGG TOAST + MON FRAPPE  </p>
+      </div>
+      <div>
       </div>
       <div className='sandwich'>  
         <img alt='sandwich' src={sandwich}/>

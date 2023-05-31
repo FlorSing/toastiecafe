@@ -6,11 +6,9 @@ function Footer(){
     <>
     <footer>
         <div className="footer text-center" >
-            <p> </p>
-            <br/>
+            <hr/>
             <p> Copyright © 2023    TOASTIE+CAFÉ  ■  Web Design: fpsingcak@gmail.com </p>
-            <br/>
-            <p> </p>
+            
         </div>    
     </footer>
     </>

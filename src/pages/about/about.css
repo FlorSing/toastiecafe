@@ -2,11 +2,20 @@ h2{
     text-align: center;
 }
 
-.about{
+.history{
+    font-family: Abel;
+    align-items: center;
+    border-color: yellow;
+
+}
+
+.history-title{
+    font-family: Abel;
+    font-weight: bolder;
     align-items: center;
     align-content: center;
 }
 
-.card-body{
-    color: rgb(122,74,2);
+.about{
+    border-color: yellow;
 }

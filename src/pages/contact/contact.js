@@ -18,13 +18,13 @@ function Contact() {
       </div>
       <div>
         <p>FB Messenger: <br></br>
-      <a href='https://www.facebook.com/messages/t/100006489427123/' class="btn btn-primary">https://www.facebook.com/messages/t/100006489427123/</a>
+      <a href='https://www.facebook.com/messages/t/100006489427123/' className="btn btn-primary fblink">https://www.facebook.com/messages/t/100006489427123/</a>
       </p> 
       </div>
       <div>
         <p>
       Facebook: <br></br>
-      <a href='https://www.facebook.com/toastiexcafe' class="btn btn-primary">https://www.facebook.com/toastiexcafe </a> 
+      <a href='https://www.facebook.com/toastiexcafe' className="btn btn-primary fblink">https://www.facebook.com/toastiexcafe </a> 
       </p>
       </div> 
       </div>

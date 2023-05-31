@@ -1,6 +1,14 @@
 
-.contacts {
+.contacts .fblink  {
     align-items: center;
     background-color: rgb(226, 178, 4);
-    color: black;
+    color: darkgoldenrod;
+    border-color: yellow;
 }
+
+h2 {
+    font-family: Abel;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+

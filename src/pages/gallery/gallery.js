@@ -7,6 +7,9 @@ import pics from '../../assets/pics.json';
 
 export default function Gallery() {
   return (
+    <>
+    <div className='gallery'>
+    {/* <p>testing</p> */}
     <Box sx={{ width: 800, height: 500, overflowY: 'scroll' }}>
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
@@ -21,6 +24,9 @@ export default function Gallery() {
         ))}
       </ImageList>
     </Box>
+  </div>
+  </>
+
   );
 }
 

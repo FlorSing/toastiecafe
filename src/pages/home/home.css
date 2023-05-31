@@ -1,11 +1,15 @@
 
-.jumbotron {
-    background-image: url('../../assets/logo.jpg');
-    background-size:contain;
-    align-items: center;
-    height: calc(50vh - 0px);
-}  
+.logotext{
+    font-family: Abel;
+    font-size: 25vw;
+    font-weight: bolder;
+}
 
+p{
+        font-family: Abel;
+        font-size: 1em;
+        font-weight: bolder;
+    }
 
 @keyframes menupics1 {
     from {left: 0px;}
