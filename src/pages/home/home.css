@@ -3,12 +3,23 @@
     font-family: Abel;
     font-size: 25vw;
     font-weight: bolder;
+    text-align: center;
+}
+.logotext em {
+    font-family: Abel;
+    font-size: 25vw;
+    font-weight: bolder;
+    color: goldenrod;
+    font-style: normal;
+    text-align: center;
+    
 }
 
-p{
+.sublogotext{
         font-family: Abel;
         font-size: 1em;
         font-weight: bolder;
+        text-align: center;
     }
 
 @keyframes menupics1 {

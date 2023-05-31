@@ -14,8 +14,8 @@ function Home(){
     <>
       <div className="logo" >
             <h1 className="logotext" > TOASTIE </h1> 
-            <h1 className="logotext"> + CAFÉ </h1>
-            <p >EGG TOAST + MON FRAPPE  </p>
+            <h1 className="logotext"> <em>+</em>  CAFÉ </h1>
+            <p className="sublogotext">EGG TOAST + MON FRAPPE  </p>
       </div>
       <div>
       </div>
