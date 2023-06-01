@@ -1,13 +1,13 @@
 
 .logotext{
     font-family: Abel;
-    font-size: 25vw;
+    font-size: 15vw;
     font-weight: bolder;
     text-align: center;
 }
 .logotext em {
     font-family: Abel;
-    font-size: 25vw;
+    font-size: 15vw;
     font-weight: bolder;
     color: goldenrod;
     font-style: normal;
@@ -17,7 +17,7 @@
 
 .sublogotext{
         font-family: Abel;
-        font-size: 5vw;
+        font-size: 3vw;
         font-weight: bolder;
         text-align: center;
     }
@@ -30,7 +30,7 @@
 .sandwich {
     position: relative;
     display: flex;
-    block-size: 350px;
+    block-size: 250px;
     animation: menupics1 11s infinite forwards;
 }
 

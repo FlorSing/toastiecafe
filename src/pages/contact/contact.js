@@ -28,7 +28,7 @@ function Contact() {
       </p>
       </div> 
       </div>
-      <div class="col">
+      <div className="col">
         <img src={prodn} alt='neonsign'/>
       </div>
     </div>
