@@ -1,25 +1,45 @@
 
-.logotext{
+.logotext1 {
+    /* display: flex; */
     font-family: Abel;
     font-size: 15vw;
     font-weight: bolder;
-    text-align: center;
+    text-align: right;
 }
-.logotext em {
+.logotext2 {
+    /* display: flex; */
+    line-height: 1.0;
+    font-family: Abel;
+    font-size: 15vw;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+    
+}
+
+.logotext2 em {
+    /* display: flex; */
     font-family: Abel;
     font-size: 15vw;
     font-weight: bolder;
     color: goldenrod;
     font-style: normal;
-    text-align: center;
-    
+    text-align: right;
 }
 
 .sublogotext{
+        display:flex;
+        /* position: relative; */
         font-family: Abel;
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: bolder;
-        text-align: center;
+        text-align: left;
+        margin-left: 0;
+        /* transform: rotateX(90deg); */
+        writing-mode: vertical-lr;
+       transform: scale(-1, -1);
+       margin-top: 3em;
+       margin-bottom: 3.5em;
     }
 
 @keyframes menupics1 {
@@ -32,8 +52,4 @@
     display: flex;
     block-size: 250px;
     animation: menupics1 11s infinite forwards;
-}
-
-body {
-    background-color: rgb(226, 178, 4);
 }

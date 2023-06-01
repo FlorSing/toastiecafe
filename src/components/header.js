@@ -28,6 +28,15 @@ function Header() {
 
       <li className="nav-item">
             <NavLink 
+            to='/Menu' 
+            end 
+            className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }>Our Menu</NavLink>
+        </li>
+
+      <li className="nav-item">
+            <NavLink 
             to='/Gallery' 
             end 
             className={({ isActive }) =>
