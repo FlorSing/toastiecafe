@@ -4,7 +4,9 @@
     align-items: center;
     
 }
-
+.menutitle{
+    background-color: lightgoldenrodyellow;
+}
 .menuitems{
     font-family: Abel;
 }
@@ -17,4 +19,8 @@
 h2 h3 h4 {
     font-family: Abel;
     font-weight: bolder;
+}
+
+.drinktype{
+    color: goldenrod;
 }

@@ -5,11 +5,14 @@ import './menu.css';
 
 
 
+/*
+try dropdown menu for drinks and sandwiches
+*/
 function Menu(){
     return (
     <>
     <div>
-        <h2>Our Menu</h2>
+        <h2 className="menutitle">Our Menu</h2>
     </div>
     <div>
         {/* <img src={newin} alt='newinmenu' id='newin'/> */}
@@ -19,14 +22,14 @@ function Menu(){
  
         <div className="row">
             <div className="col">
-                <h3 classNameName="card-title">Ice Cold Drinks</h3>
+                <h3 classNameName="card-title  drinktype">Ice Cold Drinks</h3>
                 <p classNameName="card-text">To keep you cool...</p>
             <div classNameNameName="drinks">
-                <div classNameName="card" style={{width: "18rem"}}>
+                <div classNameName="card" >
                 {/* <img src={drinks} classNameName="card-img-top" alt="..."/> */}
                         
                     <div classNameName="card-body">
-                        <h4 classNameName="card-title">Coffee Based</h4>
+                        <h5 classNameName="card-title">Coffee Based</h5>
                         <ul className="list-group">
                             <li className="list-group-item">
                                 <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
@@ -57,7 +60,7 @@ function Menu(){
                     </div>
 
                     <div classNameName="card-body">
-                    <h4 classNameName="card-title">Non-Coffee Based</h4>
+                        <h5 classNameName="card-title ">Non-Coffee Based</h5>
                     <ul className="list-group">
                         <li className="list-group-item">
                             <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
@@ -86,14 +89,53 @@ function Menu(){
                         
                         </ul>
                     </div>
+
+                    <div>
+                        <br/>
+                    </div>
+
+                    <div classNameName="card-body">
+                        <h4 classNameName="card-title drinktype" >Hot Drink</h4>
+                    <ul className="list-group">
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
+                            <label className="form-check-label" for="firstCheckbox">Coffee</label>
+                        </li>
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="secondCheckbox"/>
+                            <label className="form-check-label" for="secondCheckbox">Mocha</label>
+                        </li>
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                            <label className="form-check-label" for="thirdCheckbox">Choco</label>
+                        </li>
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                            <label className="form-check-label" for="thirdCheckbox">Dark Choco</label>
+                        </li>
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                            <label className="form-check-label" for="thirdCheckbox">Caramel Macchiato</label>
+                        </li>
+                        <li className="list-group-item">
+                            <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                            <label className="form-check-label" for="thirdCheckbox">Matcha</label>
+                        </li>                
+                        
+                        </ul>
+                    </div>
+
                 </div>
             </div>
             </div>
             <div className="col">
                 <h3 classNameName="card-title"> </h3>  
                 <p classNameName="card-text"> </p>
+                
                 <div classNameName="card-body">
-                        <h4 classNameName="card-title">Fruit Coolers</h4>
+                    <h4 classNameName="card-title  drinktype">Fruit Coolers</h4>
+                    <p>Tea, Yoghurt, or Soda</p>
+                    <p>served with one sinker</p>
                         <ul className="list-group">
                             <li className="list-group-item">
                                 <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
@@ -113,7 +155,77 @@ function Menu(){
                             </li>
                             
                         </ul>
-                    </div>
+                   </div>
+                   <div>
+                    <br/>
+                   </div>
+
+                   <div classNameName="card-body">
+                    <h4 classNameName="card-title  drinktype">Milk Tea</h4>
+                    <p>served with one sinker</p>
+                        <ul className="list-group">
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
+                                <label className="form-check-label" for="firstCheckbox">Winter Melon</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="secondCheckbox"/>
+                                <label className="form-check-label" for="secondCheckbox">Chocolate</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Okinawa</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Hokkaido</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Taro</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Matcha</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Strawberry</label>
+                            </li>
+                            
+                        </ul>
+                   </div>
+
+                   <div>
+                    <br/>
+                   </div>
+                   <div classNameName="card-body">
+                    <h4 classNameName="card-title  drinktype">Sinkers</h4>
+                        <ul className="list-group">
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
+                                <label className="form-check-label" for="firstCheckbox">Oreo</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="secondCheckbox"/>
+                                <label className="form-check-label" for="secondCheckbox">Nata</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Pearl</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Popping Boba</label>
+                            </li>
+                            <li className="list-group-item">
+                                <input className="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox"/>
+                                <label className="form-check-label" for="thirdCheckbox">Coffee Jelly</label>
+                            </li>
+                            
+                        </ul>
+                   </div>
+
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@ function Contact() {
       <div>
       <div className="container" >
     <div className="row">
-      <div className="col  contacts" >
+      <div className="col  contacts" style={{width:"10rem"}}>
       <div>
       <h2>Contact Page</h2>
       </div>

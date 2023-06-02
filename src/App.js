@@ -8,6 +8,8 @@ import Contact from './pages/contact/contact';
 import About from './pages/about/about';
 import Footer from './components/footer';
 import Pictures from './pages/pictures/pictures';
+import Drinks from './pages/drinks/drinks';
+import Sandwich from './pages/sandwich/sandwich';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -23,6 +25,10 @@ function App() {
         <Route path='/Pictures' element={<Pictures/>} />
         <Route path='/About' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/Drinks' element={<Drinks/>} />
+        <Route path='/Sandwich' element={<Sandwich/>} />
+
+
       </Routes>
       <Footer />
     </Router>
