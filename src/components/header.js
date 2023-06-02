@@ -25,7 +25,7 @@ function Header() {
           </a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/Drinks">Drinks</a></li>
-            <li><a className="dropdown-item" href="/Sandwich">Sandwiches</a></li>
+            <li><a className="dropdown-item" href="/Sandwich">Food</a></li>
           </ul>
         </li>
         <li className="nav-item">

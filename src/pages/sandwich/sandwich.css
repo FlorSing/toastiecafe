@@ -1,0 +1,22 @@
+#menuhead{
+    background-color: palegoldenrod;
+}
+
+.ricemenu{
+    font-family: Abel;
+}
+.extra{
+    font-size: 10px;
+}
+
+#toast{
+    block-size: 500px;
+}
+
+#pasta{
+    block-size: 250px;
+}
+
+#crisps{
+    block-size: 250px;
+}

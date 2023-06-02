@@ -1,12 +1,15 @@
 
 import React from "react";
 import './drinks.css';
+import drinks from '../../assets/drinkstower.jpg';
+import newin from '../../assets/newinmenu.jpg';
+import matcha from '../../assets/twocupsmatcha.jpg';
 
 function Drinks(){
     return (
         <>
         <div>
-            <h2>Drinks Menu</h2>    
+            <h2 id="menuhead" >Drinks Menu</h2>    
         </div>
         <div className="container menuitems">
  
@@ -16,7 +19,7 @@ function Drinks(){
          <p classNameName="card-text">To keep you cool...</p>
      <div classNameNameName="drinks">
          <div classNameName="card" >
-         {/* <img src={drinks} classNameName="card-img-top" alt="..."/> */}
+         <img src={drinks} classNameName="card-img-top" alt="drinktower" />
                  
              <div classNameName="card-body">
                  <h5 classNameName="card-title">Coffee Based</h5>
@@ -126,6 +129,7 @@ function Drinks(){
              <h4 classNameName="card-title  drinktype">Fruit Coolers</h4>
              <p>Tea, Yoghurt, or Soda</p>
              <p>served with one sinker</p>
+             <img src={newin} classNameName="card-img-top" alt="newdrink" id='newin' />
                  <ul className="list-group">
                      <li className="list-group-item">
                          <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
@@ -184,13 +188,15 @@ function Drinks(){
                      </li>
                      
                  </ul>
+                 <img src={matcha} classNameName="card-img-top" alt="matcha" id='matcha' />
+                 
             </div>
 
             <div>
              <br/>
             </div>
-            <div classNameName="card-body">
-             <h4 classNameName="card-title  drinktype">Sinkers</h4>
+            <div classNameName="card-body sinker">
+             <h4 classNameName="card-title  sinker">Sinkers</h4>
                  <ul className="list-group">
                      <li className="list-group-item">
                          <input className="form-check-input me-1" type="checkbox" value="" id="firstCheckbox"/>
