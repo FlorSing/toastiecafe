@@ -37,7 +37,7 @@
     
  ## Usage 
 
- Load webpage from Netlify link 
+ Load webpage from Netlify link: https://fancy-smakager-ab6463.netlify.app/ 
 
     
  ## License 
