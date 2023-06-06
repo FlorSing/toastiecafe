@@ -6,13 +6,23 @@ import drinks from '../../assets/drinksmain.jpg';
 import spaghetti from '../../assets/spaghettiwithtoast.jpg';
 import crisps from '../../assets/crispsiwthdip.jpg';
 import bread from '../../assets/toastbread.jpg';
-import drinkstower from '../../assets/drinkstower.jpg'
+import drinkstower from '../../assets/drinkstower.jpg';
+import logo from '../../assets/logo.jpg';
 
 function Home(){
     return (
 
     <>
-      <div className="container logo" >
+    <div >
+        <div className="jumbotron">
+          <img src={logo} alt='logo' className="logopic"/>
+          {/* <div className="container logopic">
+            <h1 className="display-4"> </h1> 
+            <p className="lead"> </p>
+          </div> */}
+        </div>
+      </div>
+      {/* <div className="container logo" >
       <div className="row">
         <div className="col">
             <h1 className="logotext1" >TOASTIE</h1> 
@@ -26,7 +36,7 @@ function Home(){
       </div>
       </div>
       <div>
-      </div>
+      </div> */}
       <div className='sandwich'>  
         <img alt='sandwich' src={sandwich}/>
         <img alt='spaghetti' src={spaghetti}/>  

@@ -1,4 +1,15 @@
 
+/* .jumbotron {
+    background-image: url('../../assets/logo.jpg');
+    background-size:cover;
+    background-position: center;
+    height: calc(55vh - 15px);
+}   */
+
+.logopic{
+    width: 100%;
+    height: auto;
+}
 .logotext1 {
     /* display: flex; */
     font-family: Abel;
